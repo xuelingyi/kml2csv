@@ -4,7 +4,6 @@ NOTE: only point coordinates are written out. No other types of geographic info 
 
 Example run:
 > source("POINTS_kml2csv.R")
-> 
-KML file: ##type in the file name (e.g., mydata.kml)
+When you see the prompt "KML file: ", type in the file name (e.g., mydata.kml)
 
 Then a file "mydata.csv" will be written out in the working directory. The output has four columns: site name, longitude, latitude, and altitude.
